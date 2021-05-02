@@ -18,3 +18,17 @@ print(b)
 print(c)
 print(d)
 print(e)
+
+#comandos booleanos..
+
+idade = 10
+if idade >= 18:
+	maior = True
+else:
+	maior = False
+
+print(maior)
+
+# metodo mais eficiente e coerente...
+
+maior = True if idade >= 18 else False
